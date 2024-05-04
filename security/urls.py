@@ -1,7 +1,6 @@
-from django.urls import path, include
-from .views import HomeSecurity
+# from django.urls import path, include
+# from . import views
 
-urlpatterns = [
-
-    path(HomeSecurity, include('security.urls')),
-]
+# urlpatterns = [
+#     path('', views.HomeSecurity, name="homeSecurity"),
+# ]
